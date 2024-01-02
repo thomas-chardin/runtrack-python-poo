@@ -8,6 +8,7 @@ class Animal():
         self.age = self.age + 1
     def nommer(self, prenom):
         self.prenom = prenom
+        animal.afficherNom()
     def afficherNom(self):
         print(f"L'animal se nomme {self.prenom}")
 animal = Animal()
@@ -15,4 +16,3 @@ animal.afficherAge()
 animal.viellir()
 animal.afficherAge()
 animal.nommer("Luna")
-animal.afficherNom()
